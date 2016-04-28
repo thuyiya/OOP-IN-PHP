@@ -1,9 +1,9 @@
 <?php 
 
-	require 'Person.php';
+require 'Bird.php';
 
-	$person = new Person('thuyiya', 24);
+require 'Pigeon.php';
 
-	$person->sentance();
+$pigeon= new Pigeon(true, 2);
 
- ?>
+echo $pigeon->getLegCount();
