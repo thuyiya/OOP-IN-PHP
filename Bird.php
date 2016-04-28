@@ -1,10 +1,16 @@
 <?php
 
+// public 
+
+// protected
+
+// private
+
 class Bird {
 
-	public $canFly;
+	protected $canFly;
 
-	public $legCount;
+	protected $legCount;
 
 	public function __construct($canFly, $legCount){
 
