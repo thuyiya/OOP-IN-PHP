@@ -4,6 +4,12 @@ require 'Bird.php';
 
 require 'Pigeon.php';
 
-$pigeon= new Pigeon(true, 2);
+require 'Penguin.php';
 
-echo $pigeon->getLegCount();
+$penguin= new Penguin(false, 2);
+
+if ($penguin->canFly()) {
+	echo 'yes!';
+}else{
+	echo 'Penguin Can Not Fly'; 
+}
